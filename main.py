@@ -70,6 +70,7 @@ for i in range(0,12):
                 "month": month[i],
                 "day": (j+1),
                 'shijian': shijian_c,
+                'qiwen':qiwen_c,
                 'fenglengwen': fenglengwen_c,
                 'ludian': ludian_c,
                 'shidu': shidu_c,
@@ -140,7 +141,7 @@ for i in range(len(url_list_12attr)):
         data = {
             "url": url,
             'shijian': shijian_c,
-
+            'qiwen':qiwen_c,
             'ludian': ludian_c,
             'shidu': shidu_c,
             'qiya': qiya_c,
